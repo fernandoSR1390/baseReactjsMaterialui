@@ -1,5 +1,20 @@
+.CompanyInfo {
+  list-style: none;
+  font-family: 'Hind', sans-serif;
+  color: black;
+}
+
+.Name {
+  font-size: 20px;
+}
+
+.Production {
+  font-size: 16px;
+}
+
 .App {
   text-align: center;
+  padding: 2%;
 }
 
 .App-logo {
@@ -32,6 +47,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
